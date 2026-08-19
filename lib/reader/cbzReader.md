@@ -1,0 +1,1 @@
+O JSZip permite pegar cada entrada do arquivo e convertê-la assincronamente para formatos como Uint8Array ou Blob. Usa-se Uint8Array e depois criamos um Blob com o MIME correto da imagem.
