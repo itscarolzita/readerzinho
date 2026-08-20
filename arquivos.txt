@@ -1,0 +1,25 @@
+app/ - aplicativo
+
+lib/reader/ - código reutilizável para leitura e processamento de arquivos
+
+node_modules/ - dependências instaladas do projeto
+
+public/ - arquivos públicos e recursos estáticos
+
+.gitattributes - configurações de atributos do Git
+
+.gitignore - arquivos e pastas ignorados pelo Git
+
+arquivos.txt - lista ou registro de arquivos do projeto
+
+eslint.config.mjs - configurações das regras do ESLint
+
+jsconfig.json - configurações do JavaScript e do editor
+
+next.config.mjs - configurações do Next.js
+
+package-lock.json - registro das versões exatas das dependências
+
+package.json - informações, scripts e dependências do projeto
+
+README.md - documentação e instruções do projeto
