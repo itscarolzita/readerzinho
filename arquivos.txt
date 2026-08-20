@@ -1,14 +1,8 @@
-app/ - aplicativo
-
 lib/reader/ - código reutilizável para leitura e processamento de arquivos
-
-node_modules/ - dependências instaladas do projeto
 
 public/ - arquivos públicos e recursos estáticos
 
 .gitattributes - configurações de atributos do Git
-
-.gitignore - arquivos e pastas ignorados pelo Git
 
 arquivos.txt - lista ou registro de arquivos do projeto
 
@@ -23,3 +17,5 @@ package-lock.json - registro das versões exatas das dependências
 package.json - informações, scripts e dependências do projeto
 
 README.md - documentação e instruções do projeto
+
+* Além do foco ser o site para leitura, compartilho os códigos para leitor de cada formato na pasta: lib/reader
