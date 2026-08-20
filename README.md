@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Um leitor de quadrinhos e documentos direto no navegador.**
 
-## Getting Started
+O _Readerzinho_ é um leitor web leve e simples para visualizar arquivos PDF, CBZ, CBR e imagens, sem precisar instalar um aplicativo dedicado.
 
-First, run the development server:
+A ideia é transformar o navegador em um pequeno leitor pessoal: abra seu arquivo e aproveite a leitura.
+A aplicação funciona como um leitor local no navegador, permitindo que você selecione o arquivo que deseja visualizar e controle a experiência de leitura pela própria interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**- FUNCIONALIDADES**
+📖 Leitura de arquivos PDF;
+Suporte a CBZ;
+Suporte a CBR;
+Visualização de imagens;
+Navegação entre páginas;
+Controle de zoom;
+Modo tela cheia;
+Configurações do leitor;
+Abertura de arquivos diretamente pelo navegador;
+Interface simples e focada na leitura.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**- FORMATOS SUPORTADOS**
+PDF;
+CBZ;
+CBR;
+RAR;
+Imagens	(png, pjp, jpe, jpeg, jpg, pjpeg, jfif, webp).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**- COMO USAR**
 
-## Learn More
+- Acesse o Readerzinho
+- Clique em Abrir arquivo.
+- Selecione um PDF, CBZ, CBR ou imagem.
+- Use os controles do leitor para navegar pelo conteúdo.
+- Ajuste o zoom ou utilize o modo tela cheia quando necessário.
 
-To learn more about Next.js, take a look at the following resources:
+Seus arquivos são selecionados diretamente pelo navegador para serem visualizados no leitor.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**- CONCEITO**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O Readerzinho foi pensado para manter a experiência de leitura no centro da aplicação.
 
-## Deploy on Vercel
+Em vez de funcionar como uma biblioteca pessoal (sendo esse o objetivo do [Readerzito]((https://github.com/itscarolzita/readerzito))), ele atua como uma ferramenta de leitura local no navegador. Isso permite que a aplicação seja pequena, direta e útil para quem simplesmente quer abrir e ler um arquivo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**- ROADMAP**
+Algumas ideias que podem evoluir o projeto:
+Suporte a diferentes formatos de imagem;
+Atalhos de teclado;
+Histórico de leitura;
+Melhorias de acessibilidade;
+Melhorias para celulares;
+aplicativo;
+Mais opções de personalização do leitor.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Se você encontrou um problema, tem uma sugestão ou quer implementar uma melhoria, sinta-se benvindo com suas idéias!
+* Para bugs e sugestões, você também pode abrir uma Issue.
+
+**- LICENÇA**
+Este projeto é distribuído sob a licença definida no repositório.
+Consulte o arquivo LICENSE para mais informações.
+<div align="center">
