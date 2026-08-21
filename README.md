@@ -52,7 +52,6 @@ aplicativo;
 Mais opções de personalização do leitor.
 
 * Se você encontrou um problema, tem uma sugestão ou quer implementar uma melhoria, sinta-se benvindo com suas idéias!
-* Para bugs e sugestões, você também pode abrir uma Issue.
 
 **- LICENÇA**
 Este projeto é distribuído sob a licença definida no repositório.
