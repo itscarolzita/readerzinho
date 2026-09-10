@@ -43,15 +43,14 @@ export default function ReaderPage() {
   }, [fileUrl]);
 
   return (
-    <main className={styles.readerPage}>
-      <FileUploader onFileSelect={handleFileSelect} />
+  <main className={styles.readerPage}>
+    <FileUploader onFileSelect={handleFileSelect} />
 
-      {error && <p>{error}</p>}
+    {error && <p>{error}</p>}
 
-      <Reader
-        fileUrl={fileUrl}
-        fileName={fileName}
-      />
-    </main>
-  );
-}
+    <Reader
+      fileUrl={fileUrl}
+      fileName={fileName}
+    />
+  </main>
+)}

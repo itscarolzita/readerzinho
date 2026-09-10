@@ -11,6 +11,8 @@ import { readCbz } from "../../lib/reader/cbzReader";
 import { readPdf } from "../../lib/reader/pdfReader";
 import { readCbr } from "../../lib/reader/cbrReader";
 
+import LinkRepository from "../components/LinkRepository";
+
 export default function ReaderPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [zoom, setZoom] = useState(100);
@@ -578,6 +580,14 @@ export default function ReaderPage() {
         )}
       </section>
 
+{/* =========================
+          REPOSITÓRIO
+      ========================= */}
+
+      {pages.length === 0 && !isLoading && !error && (
+        <LinkRepository />
+      )}
+      
       {/* =========================
           SETTINGS
       ========================= */}
