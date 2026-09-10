@@ -580,6 +580,14 @@ export default function ReaderPage() {
         )}
       </section>
 
+{/* =========================
+          REPOSITÓRIO
+      ========================= */}
+
+      {pages.length === 0 && !isLoading && !error && (
+        <LinkRepository />
+      )}
+      
       {/* =========================
           SETTINGS
       ========================= */}
@@ -773,7 +781,6 @@ export default function ReaderPage() {
           </section>
         </aside>
       )}
-      <LinkRepository />
     </main>
   );
 }
